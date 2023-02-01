@@ -1,2 +1,66 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+:root {
+    --fonte1: verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Roboto Mono', monospace;
+    --fonte3: 'Roboto Condensed', sans-serif;
+
+}
+:root {
+    --cor1: rgb(91, 6, 91);
+    --cor2: rgb(129, 40, 129);
+    --cor3: rgb(179, 84, 179);
+    --cor4: rgb(211, 122, 211);
+    --cor5: rgb(240, 182, 240);
+}
+
+body {
+    padding: 00px;
+    border: none;
+    margin: 00px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor1));
+    padding: 10px 10px 10px 10px;
+    margin: 00px;
+    border: none;
+    font-family: var(--fonte3);
+}
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte2);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+header p {
+    color: white;
+    margin: auto;
+    text-align: center;
+    max-width: 400px;
+    padding: 0px 0px 40px 0px;
+    font-weight:100;
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 37px;
+    margin: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    transition-duration: 0.3s;
+
+}
+header nav a:hover {
+    color: black;
+    background-color: var(--cor5);
+}
+
+main {
+    
+}
